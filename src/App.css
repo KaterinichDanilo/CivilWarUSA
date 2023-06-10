@@ -1,0 +1,123 @@
+.main-style {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30vh;
+  align-items: center;
+
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d8/Flag_of_the_USA.png");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  height: 100vh;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main-button {
+  padding: 15px 30px;
+}
+
+.main-title {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.confederation {
+  display: flex;
+  flex-direction: column;
+}
+
+.confed-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.confed-button-back {
+  align-self: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.confed-info {
+  display: flex;
+}
+
+.confed-leftblock {
+  flex-basis: 60%;
+}
+
+.confed-rightblock {
+  flex-basis: 40%;
+}
+
+.fights {
+  padding: 20px;
+}
+
+.fights-button-back {
+  margin-bottom: 20px;
+}
+
+.fights-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.fight-block {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: min(400px, 80vmin);
+  padding: 10px;
+  background-color: lightsteelblue;
+}
+
+.fight-block:hover {
+  background-color: darkkhaki;
+}
+
+.fight-img {
+  height: min(400px, 80vmin);
+  width: min(400px, 80vmin);
+  object-fit: cover;
+}
+
+.fight-text {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.fight-title {
+  font-size: 28px;
+}
+
+.fight-description {
+  font-size: 24px;
+}
+
+.fight-text {
+  font-size: 20px;
+}
+
+.fight-date {
+  font-size: 20px;
+  text-align: end;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
